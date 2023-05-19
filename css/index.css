@@ -6,13 +6,7 @@ body {
   margin: 0;
   padding: 0;
   display: block;
-}
-#choose {
-  margin: 0;
-  padding: 0;
-  display: block;
-  border-style: dashed;
-  border-color: rgba(165, 49, 0, 0.517);
+
 }
 #fbp {
   margin: 0;
@@ -181,15 +175,19 @@ header hr {
   position: relative;
   top: 5px;
   box-shadow: 1px 1px 1px gray;
+
 }
 #choose {
   background-color: white;
-  width: 600px;
+  width: 80%;
   height: 40vh;
+  border-radius: 5px;
+  border-style: dashed;
   border-width: 1px;
+  border-color: rgba(165, 49, 0, 0.517);
   position: fixed;
   top: 40vh;
-  left: 30vw;
+  left: 10vw;
   z-index: 30;
 }
 
